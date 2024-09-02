@@ -19,5 +19,12 @@ String strPwd = request.getParameter("pwd");
 out.println("비밀번호: " + strPwd);
 %>
 <br />
+
+<%
+String week = request.getParameter("week");
+out.println("요일: " + week);
+%>
+<br />
+
 </body>
 </html>
