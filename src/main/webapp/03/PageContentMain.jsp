@@ -21,10 +21,10 @@ pageContext.setAttribute("pagePerson", new Person("한석봉", 99));
 <body>
 	<h2>page 영역의 속성값 읽기</h2>
 	
-	<!-- 3. 2번에서 저장한 속성들을 여기서 다시 읽어옴
-			단, 모든 속성이 Object 타입으로 저장되어 있으므로 다시 원래의 타입으로 형변환 했음.
- 	-->
 	<%
+	/* 3. 2번에서 저장한 속성들을 여기서 다시 읽어옴
+		  단, 모든 속성이 Object 타입으로 저장되어 있으므로 다시 원래의 타입으로 형변환 했음.
+	*/
 	int pInteger = (Integer)(pageContext.getAttribute("pageInteger"));
 	// 4. String 타입인 경우, toString() 메서드를 통해 문자열로 변환하여 출력 가능
 	String pString = pageContext.getAttribute("pageString").toString();
