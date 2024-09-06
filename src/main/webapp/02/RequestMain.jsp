@@ -35,7 +35,7 @@
 		<input type="submit" value="전송하기" />
 	</form>
 	
-	<h2>3. HTTP 요청 헤더 일기</h2>
+	<h2>3. HTTP 요청 헤더 읽기</h2>
 	<a href="RequestHeader.jsp">
 		요청 헤더 정보 읽기
 	</a>
