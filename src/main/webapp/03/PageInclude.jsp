@@ -1,4 +1,4 @@
-<%@ page import="common2.Person" %>
+<%@ page import="common1.Person" %>
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
  <h4>Include 페이지</h4>

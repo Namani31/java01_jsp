@@ -1,5 +1,5 @@
 <!-- 1. 먼저 코드에서 외부 클래스인 common2.Person 을 사용하기 위해 import 함 -->
-<%@ page import="common2.Person" %>
+<%@ page import="common1.Person" %>
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
 
